@@ -1,10 +1,13 @@
 {
   "name": "public_html",
   "version": "1.0.0",
-  "description": "",
   "main": "like_button.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy-production": "react-scripts build && scp -r ./build/* montypadre@74.207.237.136:/var/www/memetik.io/public_html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +15,14 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-react-app": "^3.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montypadre/memetik.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/montypadre/memetik.io/issues"
+  },
+  "homepage": "https://github.com/montypadre/memetik.io#readme",
+  "description": ""
 }
