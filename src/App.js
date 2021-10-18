@@ -13,7 +13,7 @@ function App(props) {
       </header>
       <p className="hello">
           Hello, { subject }!<br />
-          Please take a moment to complete our user <PopupButton id="c0zMT0hn" style={{ fontSize: 20}} className="typeform-button">survey</PopupButton>.
+          Please take a moment to complete our user <PopupButton id="c0zMT0hn" style={{ fontSize: 22 }} className="typeform-button">survey</PopupButton>.
       </p>
     </div>
   );
