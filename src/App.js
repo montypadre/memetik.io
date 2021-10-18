@@ -1,5 +1,4 @@
 import Layout from './Layout';
-import './App.css';
 
 
 function App(props) {
@@ -11,8 +10,8 @@ function App(props) {
       <Layout />
       <div className="App-logo" id="app"></div>
       </header>
-      <p className="App-hello">
-          Hello, {subject}!
+      <p className="hello">
+          Hello, { subject }!
       </p>
     </div>
   );
